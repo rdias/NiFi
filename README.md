@@ -1,2 +1,2 @@
-# NiFi
-Repositorios de features do NiFi
+# NiFi RebuildJson
+O RebuildJson é um script python que facilita o deploy de fluxo do NiFi entre NiFi Registry diferente. Atualmente existe um ticket de improvement (NiFi-5029) aberto destacando a dificuldade que os devs estão encontrando para poder migrar fluxos do NiFi que possuem Process Group com versionamento aninhado de um Registry para outro, isso devido ao fato da exportação do fluxo gerar apenas uma referência ao Process Group que são internos ao fluxo e que também possuem versionamento.
